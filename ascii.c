@@ -154,7 +154,3 @@ int ascii_digit(int c) { return (ASCII_TABLE[c] & DIGIT); }
 int ascii_hex(int c) { return (ASCII_TABLE[c] & HEX); }
 
 int ascii_oct(int c) { return (ASCII_TABLE[c] & OCT); }
-
-char ascii_to_lower(char c) { return ASCII_TABLE[((int)c) - 32]; }
-
-char ascii_to_upper(char c) { return ASCII_TABLE[((int)c) + 32]; }
